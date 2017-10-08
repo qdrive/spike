@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>spike</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- begin: css -->
+  <link href="assets/css/gizmo.min.css" rel="stylesheet">
+  <link href="assets/css/app.css" rel="stylesheet">
+  <!-- end: css -->
+</head>
+
+<body>
+  <!-- begin: wrapper -->
+  <div id="gz-wrapper">
+    <!-- begin containers -->
+    <div id="navbar-container">
+      <!-- begin: navbar-content -->
+      <div id="navbar-content" class="gz-top">
+        <!-- begin: large-navbar-content -->
+        <div id="large-navbar-content">
+          <div class="gz-bar gz-theme-6 gz-card-x2 gz-left-align gz-font-x3">
+            <a class="gz-bar-item gz-button gz-padding-x3 gz-hover-theme gz-font-x3" href="#/">spike</a>
+          </div>
+        </div>
+        <!-- end: large-navbar-content -->
+      </div>
+      <!-- end: navbar-content -->
+    </div>
+    <div id="view-container">
+      <!-- begin: view-content -->
+      <div id="view-content">
+        <!-- begin: header-content -->
+        <div id="header-content">
+          <header class="gz-container gz-theme-8 gz-center" style="padding:128px 64px;">
+            <h1 id="view-title" class="gz-font-x6 gz-animate-top">spike</h1>
+            <p class="gz-font-x3 gz-opacity">Just a super simple JavaScript routing engine!</p>
+          </header>
+          <!-- begin: sub-nav-content -->
+          <div id="sub-nav-content">
+            <div class="gz-bar gz-theme-9">
+              <div class="gz-center">
+                <a href="#/" class="gz-bar gz-button gz-hover-theme">Default</a>
+                <a href="#/items" class="gz-bar gz-button gz-hover-theme">Items</a>
+                <a href="#/item/74" class="gz-bar gz-button gz-hover-theme">Item</a>
+                <a href="#/html" class="gz-bar gz-button gz-hover-theme">Html</a>
+                <a href="#/oops" class="gz-bar gz-button gz-hover-theme">Oops</a>
+              </div>
+            </div>
+          </div>
+          <!-- end: sub-nav-content -->
+        </div>
+        <!-- end: header-content -->
+        <!-- begin: content -->
+        <div id="content">
+          <div class="gz-row">
+            <div class="gz-content-x2">
+              <div class="gz-row-padding gz-padding-x6 gz-container">
+                <div class="gz-col m12 ">
+                  <div class="address-bar gz-card-x2 gz-font-x5 gz-padding-x3 gz-black gz-round-x2 gz-margin-bottom"></div>
+                  <div id="injected-content" class="gz-card-x2 gz-padding-x2 gz-margin-top gz-round-x2 gz-margin-bottom"></div>
+                  <div class="address-bar gz-card-x2 gz-theme-dk gz-padding-x3 gz-round-x2">
+                    <p>Take a snoop at the <a href="https://github.com/qdrive/spike" target="_blank">GitHub</a>&nbsp;repo
+                      to find out more...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end: content -->
+      </div>
+      <!-- end: view-content -->
+    </div>
+    <div id="footer-container">
+      <!-- begin: footer-content -->
+      <div id="footer-content">
+        <div class="gz-row gz-white">
+          <footer class="gz-container gz-padding-x6 gz-center gz-opacity">
+            <p>spike</p>
+          </footer>
+        </div>
+      </div>
+      <!-- end: footer-content -->
+    </div>
+    <!-- end containers -->
+  </div>
+  <!-- begin: js -->
+  <script src="assets/js/spike.js"></script>
+  <script src="assets/js/spike-config.js"></script>
+  <!-- end: js -->
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+html,
+body {
+    height: 100%;
+    margin: 0px;
+}
+
+#gz-wrapper {
+    height: 100%;
+}
+
+#view-container {
+    margin-top: 46px;
+    min-height: 100%;
+}
